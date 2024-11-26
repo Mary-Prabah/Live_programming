@@ -13,7 +13,7 @@ public class Lions extends GPS_Location implements Trackable{
 
     public void draw(Graphics g) {
             g.setColor(Color.red);
-            g.drawString(name+ "<br>"+ age, location.x , location.y+1);
+            g.drawString(name+ " "+ age, location.x , location.y+1);
             g.fillOval(location.x - radius, location.y - radius, 2 * radius, 2 * radius);
     }
 

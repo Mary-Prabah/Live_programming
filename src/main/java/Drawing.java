@@ -15,6 +15,11 @@ public class Drawing extends Canvas {
             GPS.draw(g);
         }
     }
+//    public void repaint(Graphics g) {
+//        for (GPS_Location GPS : coord) {
+//            GPS.draw(g);
+//        }
+//    }
 }
 
 

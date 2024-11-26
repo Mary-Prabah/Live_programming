@@ -13,7 +13,7 @@ public class Drones extends GPS_Location implements Trackable {
 
     public void draw(Graphics g) {
             g.setColor(Color.black);
-            g.drawString("<html>" + name+ "<br>" + frequency + "<html>", location.x+ length/2 , location.y +length+1);
+            g.drawString(" " + name+ " " + frequency, location.x+ length/2 , location.y +length+1);
             g.fillRect (location.x - length/2, location.y+length/2, length, length);
         }
 
